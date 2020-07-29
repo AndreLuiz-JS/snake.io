@@ -3,7 +3,7 @@
 An attempt to make something similar to Slither.io in Js  from scratch.
 
 ## Demo
-https://bibhuticoder.github.io/snake.io
+https://andreluiz-js.github.io/snake.io/index.html
 
 ## todos
 - basic game components i.e menu, game-over-message etc.
