@@ -291,6 +291,12 @@ class Snake {
 						this.die();
 					}
 				}
+			} else {
+				if (s.pos.x > game.WORLD_SIZE.x || s.pos.x < 0)
+					this.die();
+				if (s.pos.y > game.WORLD_SIZE.y || s.pos.y < 0)
+					this.die();
+
 			}
 		}
 	}

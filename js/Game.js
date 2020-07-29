@@ -5,13 +5,13 @@ class Game {
 		this.ctxHex = ctxHex;
 		this.WORLD_SIZE = new Point(4000, 2000);
 		this.SCREEN_SIZE = new Point(800, 400);
-		this.world = new Point(-1200, -600);
 		this.snakes = [];
 		this.foods = [];
 		this.bricks = [];
 	}
 
 	init() {
+		this.world = new Point(0, 0);
 		this.snakes = [];
 		this.foods = [];
 		this.snakes[ 0 ] = new Snake(this.ctxSnake, "ASDevFlix User", 0);
