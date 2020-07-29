@@ -124,8 +124,8 @@ class Game {
 
 	generateFoods(n) {
 		for (var i = 0; i < n; i++) {
-			this.foods.push(new Food(this.ctxFood, ut.random(-1200 + 50, 2800 - 50),
-				ut.random(-600 + 50, 1400 - 50)));
+			this.foods.push(new Food(this.ctxFood, ut.random(0, game.WORLD_SIZE.x),
+				ut.random(0, game.WORLD_SIZE.y)));
 		}
 	}
 
